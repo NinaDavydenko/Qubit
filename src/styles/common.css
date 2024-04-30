@@ -1,0 +1,29 @@
+.container-all {
+    max-width: 1440px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    white-space: nowrap;
+    background-color: #6F2CFF;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+    gap: 60px;    
+}
