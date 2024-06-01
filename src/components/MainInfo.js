@@ -7,12 +7,12 @@ import frame3 from "../images/Frame3.png"
 
 const MainInfo = () => {
   return (
-    <section class="row main-info container-all">
-      <div class="col main-info-container">
-        <div class="main-info-title">
+    <section className="row main-info container-all">
+      <div className="col main-info-container">
+        <div className="main-info-title">
           <p>Qubit CommerceAI.</p>
         </div>
-        <div class="row main-info-block">
+        <div className="row main-info-block">
           <InfoBlock
             nameImage={frame1}
             infoTitle="More insight"

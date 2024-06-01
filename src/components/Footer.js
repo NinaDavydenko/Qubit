@@ -4,8 +4,8 @@ import Button from "./Button";
 
 const Footer = () => {
   return (
-    <footer class="row footer container-all">
-      <div class="row footer-row">
+    <footer className="row footer container-all">
+      <div className="row footer-row">
         <Navigation />
         <div>
           <Button value="Book a demo" />
